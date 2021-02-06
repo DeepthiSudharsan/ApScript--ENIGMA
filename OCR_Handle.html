@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIR Verify OCR</title>
+    <script src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+</head>
+<body>
+    <p><label for="file" style="cursor: pointer;">Upload Image</label></p>
+
+    <input type="file"  accept="image/gif, image/jpeg, image/png"  onchange="loadFile(event)" name="image" id="file" style="display: none;">
+    <img id="output" width="500" />	
+    <script>
+        var loadFile = function(event) 
+        {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+        
+    </script>
+
+    
+    <script>
+        Tesseract.recognize(
+            'output',
+            'eng',
+            { logger: m => console.log(m) }
+        ).then(({ data: { text } }) => {
+            console.log(text);
+        })
+    </script>
+
+</body>
+</html>
