@@ -1,0 +1,256 @@
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 2;
+	--web-view-id: Web_1920__2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Web_1920__2;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Web_1920__2 {
+	position: absolute;
+	width: 1920px;
+	height: 3295px;
+	background-color: rgba(0,0,0,1);
+	overflow: hidden;
+	--web-view-name: Web 1920 – 2;
+	--web-view-id: Web_1920__2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+#Group_1 {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	fill: rgba(46,46,46,1);
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+}
+#Image_1 {
+	position: absolute;
+	width: 323px;
+	height: 86px;
+	left: 1597px;
+	top: 7px;
+	overflow: visible;
+}
+#National_Smart_Police_Station {
+	left: 40px;
+	top: 31px;
+	position: absolute;
+	overflow: visible;
+	width: 458px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 31px;
+	color: rgba(255,255,255,1);
+}
+#Group_8 {
+	position: absolute;
+	width: 1920px;
+	height: 176px;
+	left: 0px;
+	top: 3119px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(192,181,175,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 176px;
+	left: 0px;
+	top: 0px;
+}
+#Group_7 {
+	position: absolute;
+	width: 250px;
+	height: 103px;
+	left: 14px;
+	top: 37px;
+	overflow: visible;
+}
+#Group_6 {
+	position: absolute;
+	width: 250px;
+	height: 87px;
+	left: 0px;
+	top: 16px;
+	overflow: visible;
+}
+#Screenshot_2021-02-06_163721 {
+	position: absolute;
+	width: 111px;
+	height: 87px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ENIGMA {
+	left: 101px;
+	top: 39px;
+	position: absolute;
+	overflow: visible;
+	width: 150px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: VALORANT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 34px;
+	color: rgba(64,63,61,1);
+}
+#TEAM {
+	left: 102px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: VALORANT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(124,115,118,1);
+}
+#Website_made_by {
+	left: 19px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 115px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(64,63,61,1);
+}
+#Yours_Police_is_the_responsibi {
+	left: 201px;
+	top: 820px;
+	position: absolute;
+	overflow: visible;
+	width: 651px;
+	height: 221px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#The_duties_of_an_officer_are_t {
+	left: 1049px;
+	top: 820px;
+	position: absolute;
+	overflow: hidden;
+	width: 637px;
+	height: 111px;
+	text-align: right;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#Image_3 {
+	position: absolute;
+	width: 858px;
+	height: 902px;
+	left: 163px;
+	top: 1181px;
+	overflow: visible;
+}
+#_Centre_Brings_Ordinance_To_Me {
+	left: 1113px;
+	top: 1359px;
+	position: absolute;
+	overflow: hidden;
+	width: 573px;
+	height: 423px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}
+#NEWS {
+	left: 1113px;
+	top: 1279px;
+	position: absolute;
+	overflow: visible;
+	width: 106px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgba(199,199,199,1);
+}
+#Line_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1 {
+	overflow: visible;
+	position: absolute;
+	width: 1444px;
+	height: 1px;
+	left: 238.5px;
+	top: 2174.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Mask_Group_1 {
+	position: absolute;
+	width: 1920px;
+	height: 616px;
+	left: 0px;
+	top: 100px;
+	overflow: visible;
+}
+#Image_6 {
+	position: absolute;
+	width: 1826px;
+	height: 873px;
+	left: 94px;
+	top: 2209px;
+	overflow: visible;
+}
