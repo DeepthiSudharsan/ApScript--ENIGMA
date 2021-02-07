@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="FIR.css"/>
+    <script src='https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js'></script>
+</head>
+<body style=background-color:black background-image="">
+    <img src='govin.png' width="250px" align='right'>
+    <style>
+        body {
+          font-size: 28px;
+          font-family: Montserrat;
+          color: rgb(138, 138, 138);
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+          top: 0;
+        }
+        
+        li 
+        {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #0f0f0f;
+        }
+
+        .upload-btn-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+          }
+          
+          .btn {
+            border: 2px solid gray;
+            color: gray;
+            background-color: white;
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+          }
+          
+          .upload-btn-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+          }
+
+
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h3>Uttar Pradesh Police Service</h3>
+        </div>
+        
+        <ul>
+          <li><a class="active" href="#home">Citizen's Corner</a></li>
+          <li><a href="#spunit">Special Units</a></li>
+          <li><a href="#pocorner">Police Corner</a></li>
+        </ul>
+        <br>
+<form>
+    Name of the Complainant    <input type="text"><br>
+    Name of the Accused    <input type="text"><br>
+    Police Station    <input type="text"><br>
+    Applicant Details    <input type="text"><br>
+    Parentage    <input type="text"><br>
+    Address    <input type="text"><br>
+    Phone Number    <input type="text"><br>
+    Relationship with the accused    <input type="text"><br>
+    Purpose of Application    <input type="text"><br>
+
+</form>
+
+        <p><label for="file" style="cursor: pointer;">Upload Aadhaar Image</label></p>
+        <br>
+        <input type="file"  accept="image/gif, image/jpeg, image/png"  onchange="loadFile(event)" name="image" id="file" style="display: none;">
+        <img id="output" width="500" />	
+
+        <script>
+            var loadFile = function(event) 
+            {
+                var image = document.getElementById('output');
+                image.src = URL.createObjectURL(event.target.files[0]);
+            };
+
+            Tesseract.recognize('aadhaar.jpeg','eng',
+            { 
+                logger: m => console.log(m) 
+            }
+            ).then(({ data: { text } }) => { console.log(text);
+            })
+
+        </script>
+        
+        
+</body>
+</html>
